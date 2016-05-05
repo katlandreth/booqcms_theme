@@ -1,1 +1,3 @@
-//= require_tree .
+//= require modal
+//= require navbar
+//= require paralax
