@@ -1,3 +1,3 @@
-//= require modal
-//= require navbar
-//= require paralax
+//= require theme/modal
+//= require theme/navbar
+//= require theme/paralax
