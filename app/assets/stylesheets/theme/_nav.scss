@@ -65,7 +65,6 @@ header.navigation {
     &:focus,
     &:hover {
       color: $navigation-color-hover;
-      border-bottom: 60px solid $highlight-color;
     }
   }
 
@@ -135,7 +134,7 @@ header.navigation {
       &:focus,
       &:hover {
         color: $navigation-color-hover;
-
+        border-bottom: 60px solid $highlight-color;
       }
     }
   }
