@@ -3,10 +3,11 @@
   $action-color: #477DCA !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
-  $footer-background: desaturate(darken($action-color, 40%), 50%);
-  $footer-color: white;
-  $footer-link-color: transparentize($footer-color, 0.6);
+  $footer-background: #efefef;
+  $footer-color: #666;
+  $footer-link-color: #d65959;
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
+  $footer-font: 'Montserrat';
 
   background: $footer-background;
   padding: ($base-spacing * 2) $gutter;
@@ -44,6 +45,8 @@
   li a {
     color: $footer-link-color;
     text-decoration: none;
+    font-family: $footer-font
+    font-weight:bold;
 
     &:focus,
     &:hover {
@@ -55,6 +58,8 @@
     color: $footer-color;
     font-size: 1em;
     margin-bottom: 0.4em;
+    font-weight:bold;
+    border-bottom: 3px solid #cbeaf2;
   }
 
   hr {
